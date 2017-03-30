@@ -28,7 +28,7 @@ class Display;
 class GameController;
 class GDBController;
 class GIFView;
-class LibraryView;
+class LibraryController;
 class LogView;
 class ShaderSelector;
 class ShortcutController;
@@ -197,7 +197,7 @@ private:
 #endif
 
 #ifdef USE_SQLITE3
-	LibraryView* m_libraryView;
+	LibraryController* m_libraryView;
 #endif
 };
 
